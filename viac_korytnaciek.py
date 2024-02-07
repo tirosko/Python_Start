@@ -1,0 +1,10 @@
+import turtle
+Tina = turtle.Turtle()
+Tina.shape("triangle")
+Marek = turtle.Turtle()
+Marek.shape("classic")
+Marek.showturtle()
+Tina.showturtle()
+Tina.pu(), Tina.lt(90), Tina.fd(50)
+Marek.pu(), Marek.lt(90), Marek.fd(100)
+turtle.done()
